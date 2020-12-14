@@ -3,6 +3,7 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+
 }
 /*=====================
   Header
@@ -16,14 +17,13 @@ header {
     top: 0px;
     width: 100%;
 }
-/* Navbar container */
+
 .navbar {
   overflow: hidden;
   background-color: white;
   font-family: 'Krona One', sans-serif;
 }
 
-/* Links inside the navbar */
 .navbar a {
   float: left;
   font-size: 16px;
@@ -33,13 +33,11 @@ header {
   text-decoration: none;
 }
 
-/* The dropdown container */
 .dropdown {
   float: left;
   overflow: hidden;
 }
 
-/* Dropdown button */
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
@@ -47,16 +45,15 @@ header {
   color: black;
   padding: 14px 16px;
   background-color: white;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit;
+  margin: 0;
 }
 
-/* Add a red background color to navbar links on hover */
+
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #ff107d;
 }
 
-/* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -66,7 +63,6 @@ header {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   float: none;
   color: black;
@@ -76,19 +72,18 @@ header {
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 .logo-container {
     display: inline-block;
-    position: left;
+    float: left;
+    margin: 0 auto;
 
 }
 
@@ -141,7 +136,6 @@ h2 {
   border: 10px double #000;
 }
 
-
 section {
   background-color: black;
   opacity: .85;
@@ -150,9 +144,37 @@ section {
   color: white;
   letter-spacing: .25em;
 
-  width: 50%;
-  margin: 100px auto;
+  width: 30%;
+  margin: 11px;
   padding: 20px;
   border-radius: 50px;
+  float: right;
+  display: inline-block;
 
+}
+
+/*========================================
+
+
+  Vehicle Page Styling
+
+
+===========================================*/
+
+.vehiclepage {
+  float: left;
+  margin-right: 10px;
+  padding: 10px;
+}
+.posydon {
+  margin-top: 35px;
+  padding: 10px;
+  background: #fff7ea;
+  font-family: caviardreams, serif;
+  line-height: 1.5;
+  font-size: 20px;
+  color: #003fae;
+  font-weight: bold;
+  letter-spacing: .1em;
+  width: 100%;
 }

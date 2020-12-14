@@ -136,6 +136,30 @@ h2 {
   border: 10px double #000;
 }
 
+/*========================================
+
+CHECK H2
+
+
+
+h2:before, h2:after {
+  font-family: "Some cool font with glyphs", serif;
+  content: "\00d7";  /* Some fancy character */
+  color: #c83f3f;
+}
+h2:before {
+  margin-right: 10px;
+}
+h2:after {
+  margin-left: 10px;
+}
+
+===========================================*/
+
+h3 {
+  font-size: 20px;
+}
+
 section {
   background-color: black;
   opacity: .85;
@@ -165,12 +189,14 @@ section {
   float: left;
   margin-right: 10px;
   padding: 10px;
+  clear: both;
 }
 
 .posydon,
-.phanta {
+.phanta,
+.henry {
   margin-top: 35px;
-  padding: 10px;
+  padding: 20px;
   font-family: caviardreams, serif;
   line-height: 1.5;
   font-size: 20px;
@@ -180,6 +206,7 @@ section {
   opacity: 100%;
 }
 
+
 .posydon {
   background: #fff7ea;
   color: #003fae;
@@ -188,4 +215,9 @@ section {
 .phanta {
   background: #ffddd0;
   color: black;
+}
+
+.henry {
+    background: #eff9b3;
+    color: black;
 }

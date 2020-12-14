@@ -12,31 +12,33 @@
   <body>
 
     <header>
-      <nav>
+      <h1>Your Fave Slice</h1>
         <div class="logo-container">
           <a href="index.html">
             <img src="images/logo.jpg" alt="Your Fave Slice Logo" width="50"/>
-        </a>
-      </div>
-        <ul>
-         <li><a href="index.html">Home</a></li>
-         <li><a href="contact.html">Contact</a></li>
-         <li><a href="#">Vehicles</a>
-          <ul class="sub-menu">
-              <li><a href="henry.html">Henry</a></li>
-              <li><a href="posydon.html">Posydon</a></li>
-              <li><a href="phanta.html">Phanta</a></li>
-          </ul>
-        </li>
-      </nav>
+          </a>
+        </div>
 
-    <h1>Your Fave Slice</h1>
+
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <nav class="dropdown">
+          <button class="dropbtn">Vehicles
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <nav class="dropdown-content">
+            <a href="henry.html">Henry</a>
+            <a href="posydon.html">Posydon</a>
+            <a href="phanta.html">Phanta</a>
+          </nav>
+        </nav>
+      </nav>
 
   </header>
 
     <main>
-      <h2>2005 Ford F-150 STX 4x4</h2>
-
+      <h2>The Vehicles</h2>
 
       <section>
       <h3>Stock Info</h3>

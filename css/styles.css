@@ -166,15 +166,26 @@ section {
   margin-right: 10px;
   padding: 10px;
 }
-.posydon {
+
+.posydon,
+.phanta {
   margin-top: 35px;
   padding: 10px;
-  background: #fff7ea;
   font-family: caviardreams, serif;
   line-height: 1.5;
   font-size: 20px;
-  color: #003fae;
   font-weight: bold;
   letter-spacing: .1em;
   width: 100%;
+  opacity: 100%;
+}
+
+.posydon {
+  background: #fff7ea;
+  color: #003fae;
+}
+
+.phanta {
+  background: #ffddd0;
+  color: black;
 }

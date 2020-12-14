@@ -1,0 +1,117 @@
+/*========================================
+
+
+  Universal Styling
+
+
+===========================================*/
+
+@font-face {
+  font-family:'caviardreams';
+  src: url('../fonts/caviardreams.ttf');
+}
+
+body {
+  background: white;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Krona One', sans-serif;
+}
+
+h1 {
+  background-color: white;
+  color: black;
+  font-size: 60px;
+  letter-spacing: .3em;
+  text-decoration: overline underline;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  background-color: white;
+  font-size: 35px;
+  text-align: center;
+  color: black;
+
+  width: 50%;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 50px;
+  border: 10px double #000;
+}
+
+div {
+  width: 100%;
+  margin: 10px auto;
+  padding: 50px
+}
+
+section {
+  background-color: black;
+  opacity: .85;
+
+  font-family: caviardreams, serif;
+  color: white;
+  letter-spacing: .25em;
+
+  width: 50%;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 50px;
+
+}
+
+/*=====================
+  Header
+=========================*/
+
+header {
+    background: white;
+    padding: 20px;
+    heigh: 100px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+header nav {
+  background: white;
+  width: 100%;
+  font-family: 'Krona One', sans-serif;
+  padding: 25px 0px;
+  position: fixed;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+header nav a {
+  display: inline;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    transition: .5s;
+    width: 100px;
+}
+
+nav a:hover {
+  background: black;
+  color: #ff107d;
+  transition: .5s;
+}
+
+.logo-container {
+    display: inline-block;
+    float: left;
+}
+
+.logo-container a:hover {
+    background: none;
+}

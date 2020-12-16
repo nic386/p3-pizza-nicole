@@ -107,6 +107,8 @@ header {
 body {
   background: white;
 
+
+
 }
 
 h1, h2, h3 {
@@ -174,7 +176,7 @@ section {
   letter-spacing: .25em;
 
   width: 30%;
-  margin: 11px;
+  margin: 30px;
   padding: 20px;
   border-radius: 50px;
   float: right;
@@ -259,3 +261,33 @@ section {
     transform: translateX(1000px);
   }
 }
+
+/*=====================
+  Footer
+=========================*/
+
+  footer {
+      position: fixed;
+      min-width: 100%;
+      bottom: 0;
+      text-align: center;
+      background: black;
+      color: white;
+      padding: 40px 0;
+  }
+
+  footer a {
+      color: white;
+      font-size: 25px;
+      margin: 0 5px;
+      transition: .3s;
+  }
+
+  footer a:hover {
+      color: #ff107d;
+      transition: .3s;
+  }
+
+  .website {
+      margin-bottom: 15px;
+  }

@@ -226,6 +226,19 @@ section {
     background: #eff9b3;
     color: black;
 }
+/*=====================
+  Images - Lightbox
+=========================*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: inline;
+}
+
+.gallery {
+
+}
 
 /*=====================
   Animation
@@ -233,8 +246,8 @@ section {
 
 .pizzalogo {
   position: absolute;
-  top: 730px;
-  left: 0px;
+  top: 80px;
+  left: 800px;
   animation: drive 15s forwards infinite linear;
 }
 

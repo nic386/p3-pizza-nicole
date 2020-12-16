@@ -230,11 +230,7 @@ section {
 /*=====================
   Animation
 =========================*/
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+
 .pizzalogo {
   position: absolute;
   top: 730px;

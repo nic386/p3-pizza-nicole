@@ -3,8 +3,8 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
-
 }
+
 /*=====================
   Header
 =========================*/
@@ -136,6 +136,11 @@ h2 {
   border: 10px double #000;
 }
 
+p {
+  font-family:'caviardreams', helvetica;
+  font-color: white;
+  font-size: 16px;
+}
 /*========================================
 
 CHECK H2
@@ -220,4 +225,28 @@ section {
 .henry {
     background: #eff9b3;
     color: black;
+}
+
+/*=====================
+  Animation
+=========================*/
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.pizzalogo {
+  position: absolute;
+  top: 730px;
+  left: 0px;
+  animation: drive 15s forwards infinite linear;
+}
+
+@keyframes drive {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(1000px);
+  }
 }

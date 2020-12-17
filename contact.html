@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact</title>
+
+    <meta charset="utf-8"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css"/>
+
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <nav class="dropdown">
+          <button class="dropbtn">Vehicles
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <nav class="dropdown-content">
+            <a href="henry.html">Henry</a>
+            <a href="posydon.html">Posydon</a>
+            <a href="phanta.html">Phanta</a>
+          </nav>
+        </nav>
+      </nav>
+    </header>
+
+    <main>
+      <div class ="container">
+        <h1>Contact Me</h1>
+        <p>Please fill out the information below and I will contact you as soon as possible.</p>
+
+        <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+
+          <div class="first-name input-section">
+            <label for="firstname" class="label_input_wrap">First Name:</label>
+            <input type="text" name="req_firstname" id="firstname" placeholder="ex. Nicole"/>
+          </div>
+
+          <div class= "last-name input-section">
+            <label for="lastname" class="label_input_wrap">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="ex. Diesel"/>
+          </div>
+
+          <div class="email input-section">
+            <label for="email" class="label_input_wrap">Email:</label>
+            <input type="email" name="req_email" id="email" placeholder="ex. nic386@yahoo.com"/>
+          </div>
+
+          <div class="telephone input-section">
+            <label for="telephone" class="label_input_wrap">Phone:</label>
+            <input type="tel" name="telephone" id="telephone" placeholder="ex. 386-999-9999"/>
+          </div>
+
+          <div class="reset">
+            <input type="reset" value="Refresh"/>
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="Submit"/>
+          </div>
+
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>This page designed by Nicole Pizza</p>
+    </footer>
+  </body>
+
+</html>

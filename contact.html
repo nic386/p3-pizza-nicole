@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8"/>
     <title>Contact</title>
 
-    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css"/>
-
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
+
     <header>
+      <h1>Your Fave Slice</h1>
+        <div class="logo-container">
+          <a href="index.html">
+            <img src="images/logo.jpg" alt="Your Fave Slice Logo" width="250"/>
+          </a>
+        </div>
+
+
       <nav class="navbar">
         <a href="index.html">Home</a>
         <a href="contact.html">Contact</a>
@@ -26,11 +34,12 @@
           </nav>
         </nav>
       </nav>
-    </header>
+
+  </header>
 
     <main>
       <div class ="container">
-        <h1>Contact Me</h1>
+        <h2>Contact Me</h2>
         <p>Please fill out the information below and I will contact you as soon as possible.</p>
 
         <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">

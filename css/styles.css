@@ -254,6 +254,7 @@ section {
 
 .contact-form {
   background: black;
+  opacity: .85;
   padding: 15px;
   max-width: 500px;
   border-radius: 10px;
@@ -315,6 +316,36 @@ select {
   border-radius: 10px;
 }
 
+/*=====================
+Details/Summary
+=========================*/
+
+}
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+}
+
+details[open] {
+    padding: .5em;
+    background: white;
+    color: black;
+
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+
+}
 /*=====================
   Footer
 =========================*/

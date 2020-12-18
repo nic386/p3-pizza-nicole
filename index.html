@@ -16,11 +16,17 @@
 
     <link rel="icon" type="image/ico" href="images/favicon.ico" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
 
     <!-- CSS -->
     <link type="text/css" rel="stylesheet" href="css/styles.css" />
-    <link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
+    <link href="css/lightbox.css" type="text/css" rel="stylesheet" />
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+
+
 
   </head>
 
@@ -58,11 +64,16 @@
       <div class="container">
         <h2>The Vehicles</h2>
 
-        <section class="gallery">
-          <img src="images/henry.jpg" alt="Henry the 7.3 Diesel at Daytona International Speedway" title="Henry at DIS" width="300px"/>
-          <img src="images/posydon.jpg" alt="Posydon the Cummins" title="Posydon" width="300px"/>
-          <img src="images/phanta.jpeg" alt="Phanta the Charger" title="Phanta" width="300px"/>
-        </section>
+
+  <section class="gallery" id="gallery">
+  <div class="images-holder">
+    <a href="images/henry.jpg" data-lightbox="vehicle" data-title="Henry the 7.3 Turbo Diesel"><img class="individual-gallery-image" src="images/Henry.jpg" alt="Henry the 7.3 Turbo Diesel" /></a>
+
+    <a href="images/posydon.jpg" data-lightbox="vehicle" data-title="Posydon the Cummins"><img class="individual-gallery-image" src="images/posydon.jpg" alt="Posydon the Cummins" /></a>
+
+    <a href="images/phanta.jpeg" data-lightbox="vehicle" data-title="Phanta the Charger"><img class="individual-gallery-image" src="images/phanta.jpeg" alt="Phanta the Charger" /></a>
+  </div>
+  </section>
 
         <section>
         <h3>A Website About Vehicles.. Why?</h3>
@@ -80,6 +91,10 @@
     <footer>
       <p>This page designed by Nicole Pizza</p>
     </footer>
+
+    <!-- Javascript for Lightbox -->
+    <script src="js/lightbox.js"></script>
+    <script src="js/script.js"></script>
 
   </body>
 

@@ -167,9 +167,15 @@ section {
   border-radius: 50px;
   float: right;
   display: inline-block;
+  text-align: center;
 
 }
 
+.individual-gallery-image {
+    max-width: 400px;
+    max-height: 200px;
+
+}
 /*========================================
 
 

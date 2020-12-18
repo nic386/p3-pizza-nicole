@@ -156,24 +156,20 @@ p{
 section {
   background-color: black;
   opacity: .85;
-
   font-family: caviardreams, serif;
   color: white;
   letter-spacing: .25em;
-
-  width: 30%;
-  margin: 30px;
+  width: 75%;
+  margin: 30px auto;
   padding: 20px;
   border-radius: 50px;
-  float: right;
-  display: inline-block;
   text-align: center;
-
 }
 
 .individual-gallery-image {
     max-width: 400px;
     max-height: 200px;
+    z-index:
 
 }
 /*========================================
@@ -225,13 +221,12 @@ section {
 =========================*/
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 60px auto;
     padding: 0 15px;
-    display: inline;
 }
 
-.gallery {
-  display: inline-block;
+.gallery img {
+  width: 30%;
 }
 
 /*=====================
